@@ -34,7 +34,7 @@ def fucionarios():
             tira = input('escreva o nome de quem saíra       ')
             servant.remove(tira)
             print(servant)
- fucionarios()
+fucionarios()
 
 def Mbuilder():
     print('acesso liberado a lista de mestres de obras')
@@ -50,4 +50,4 @@ def Mbuilder():
             tira = input('escreva o nome do mestre de obras que saíra       ')
             MasterBuilde.remove(tira)
             print(MasterBuilde)
- Mbuilder()
+Mbuilder()
