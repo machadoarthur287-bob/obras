@@ -34,4 +34,4 @@ def fucionarios():
             tira = input('escreva oque quer tirar')
             servant.remove(tira)
             print(servant)
-servant()
+ servant()
