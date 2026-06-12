@@ -16,21 +16,22 @@ def materiais():
             print(materials)
         case '3':
             tira = input('escreva oque quer tirar')
-            materials.remove(tira)
+             materials.remove(tira)
             print(materials)
 materiais()
 
 def fucionarios():
     print('acesso liberado a lista de serventes')
-    FuncoesMaterias = input("ajusta a lista:\n1 - lista de empregados\n2 - contradas\n3 - tirar materias\n")
-    match funcoesMaterias:
+    FuncoesServents = input("ajusta a lista:\n1 - lista de empregados\n2 - contradas\n3 - tirar materias\n")
+    match FuncoesServents:
         case "1":
-            print (materials)
+            print (servant)
         case '2':
             adicona = input('escreva o que quer adicionar')
-            materials.append(adicona)
-            print(materials)
+            servant.append(adicona)
+            print(servant)
         case '3':
             tira = input('escreva oque quer tirar')
-            materials.remove(tira)
-            print(materials)
+            servant.remove(tira)
+            print(servant)
+servant()
