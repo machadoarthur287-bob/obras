@@ -16,7 +16,7 @@ def materiais():
             print(materials)
         case '3':
             tira = input('escreva oque quer tirar')
-             materials.remove(tira)
+            materials.remove(tira)
             print(materials)
 materiais()
 
