@@ -63,7 +63,7 @@ def Mbuilder():
             
 def interface_inicial():
     print(' ')
-    acesso = input('quem esta acessando?: \n1  servente  \n2 engenheiro  \n3 mestre de obra')
+    acesso = input('quem esta acessando?\n1 - servente\n2 - engenheiro\n3 - mestre de obra')
     match acesso:
          case '1':
              print('\n lista de materiais')
