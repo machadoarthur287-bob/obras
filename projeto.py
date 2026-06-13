@@ -12,6 +12,7 @@ def materiais():
             print (materials)
             
         case '2':
+            print(materials)
             adicona = input('escreva o que quer adicionar       ')
             materials.append(adicona)
             print(materials)
@@ -31,6 +32,7 @@ def fucionarios():
             print (servant)
             
         case '2':
+            print(servant)
             adicona = input('escreva o o nome do novo contratado      ')
             servant.append(adicona)
             print(servant)
@@ -50,6 +52,7 @@ def Mbuilder():
             print (MasterBuilde)
             
         case '2':
+            print(MasterBuilde)
             adicona = input('escreva quem é o novo mestre de obras       ')
             MasterBuilde.append(adicona)
             print(MasterBuilde)
