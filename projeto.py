@@ -87,7 +87,6 @@ def interface_inicial():
 
          case _:
              print('acesso invalido' )
-             
 interface_inicial()
 
 
