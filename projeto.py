@@ -12,12 +12,14 @@ def materiais():
             print (materials)
             
         case '2':
+            print('lista de materiais atual')
             print(materials)
             adicona = input('escreva o que quer adicionar       ')
             materials.append(adicona)
             print(materials)
             
         case '3':
+            print('lista de materiais atual')
             print(materials)
             tira = input('escreva oque quer tirar     ')
             materials.remove(tira)
@@ -32,12 +34,14 @@ def fucionarios():
             print (servant)
             
         case '2':
+            print('lista de empregados atual')
             print(servant)
             adicona = input('escreva o o nome do novo contratado      ')
             servant.append(adicona)
             print(servant)
             
         case '3':
+            print('lista de empregados atual')
             print(servant)
             tira = input('escreva o nome de quem saíra       ')
             servant.remove(tira)
@@ -52,12 +56,14 @@ def Mbuilder():
             print (MasterBuilde)
             
         case '2':
+            print('mestre atual')
             print(MasterBuilde)
             adicona = input('escreva quem é o novo mestre de obras       ')
             MasterBuilde.append(adicona)
             print(MasterBuilde)
             
         case '3':
+            print('mestre atual')
             print(MasterBuilde)
             tira = input('escreva o nome do mestre de obras que saíra       ')
             MasterBuilde.remove(tira)
