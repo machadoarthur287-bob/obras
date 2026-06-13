@@ -20,6 +20,7 @@ def materiais():
             print(materials)
             tira = input('escreva oque quer tirar     ')
             materials.remove(tira)
+            print('lista atualizada')
             print(materials)
 
 def fucionarios():
@@ -38,6 +39,7 @@ def fucionarios():
             print(servant)
             tira = input('escreva o nome de quem saíra       ')
             servant.remove(tira)
+            print('funcionarios atualizados')
             print(servant)
 
 def Mbuilder():
@@ -56,11 +58,12 @@ def Mbuilder():
             print(MasterBuilde)
             tira = input('escreva o nome do mestre de obras que saíra       ')
             MasterBuilde.remove(tira)
+            print('mestre atualizado')
             print(MasterBuilde)
             
 def interface_inicial():
     print(' ')
-    acesso = input('quem esta acessando?: - \n1 - servente - \n2 engenheiro - \n3 mestre de obra')
+    acesso = input('quem esta acessando?: - \n1  servente  \n2 engenheiro  \n3 mestre de obra')
     match acesso:
          case '1':
              print('\n lista de materiais')
