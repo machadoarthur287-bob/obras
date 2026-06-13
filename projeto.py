@@ -10,15 +10,16 @@ def materiais():
     match funcoesMaterias:
         case "1":
             print (materials)
+            
         case '2':
             adicona = input('escreva o que quer adicionar       ')
             materials.append(adicona)
             print(materials)
+            
         case '3':
             tira = input('escreva oque quer tirar     ')
             materials.remove(tira)
             print(materials)
-materiais()
 
 def fucionarios():
     print('acesso liberado a lista de serventes')
@@ -26,15 +27,16 @@ def fucionarios():
     match FuncoesServents:
         case "1":
             print (servant)
+            
         case '2':
             adicona = input('escreva o o nome do novo contratado      ')
             servant.append(adicona)
             print(servant)
+            
         case '3':
             tira = input('escreva o nome de quem saíra       ')
             servant.remove(tira)
             print(servant)
-fucionarios()
 
 def Mbuilder():
     print('acesso liberado a lista de mestres de obras')
@@ -42,12 +44,85 @@ def Mbuilder():
     match FuncoesMestres:
         case "1":
             print (MasterBuilde)
+            
         case '2':
             adicona = input('escreva quem é o novo mestre de obras       ')
             MasterBuilde.append(adicona)
             print(MasterBuilde)
+            
         case '3':
             tira = input('escreva o nome do mestre de obras que saíra       ')
             MasterBuilde.remove(tira)
             print(MasterBuilde)
-Mbuilder()
+            
+def interface_inicial():
+    print(' ')
+    acesso = input('quem esta acessando?: - \n1 - servente - \n2 engenheiro - \n3 mestre de obra')
+    match acesso:
+         case '1':
+             print('\n lista de materiais')
+             print(materials) 
+             
+         case '2':
+             print('\n acesso de engenheiro')
+             escolha = input ('\n1 - materias \n2 - mestres de obras \n')
+             match escolha: 
+                case '1':
+                    materiais()
+                    
+                case '2':
+                    Mbuilder()
+
+         case '3':
+             print('\n acesso ou mestre de obras')
+             escolha = input ('\n1 - materias \n2 - serventes \n')
+                match escolha:
+                      case '1':
+                          materiais()
+                      case '2':
+                          fucionarios() 
+
+         case _:
+             print('acesso invalido' )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
