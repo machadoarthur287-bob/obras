@@ -17,6 +17,7 @@ def materiais():
             print(materials)
             
         case '3':
+            print(materials)
             tira = input('escreva oque quer tirar     ')
             materials.remove(tira)
             print(materials)
@@ -34,6 +35,7 @@ def fucionarios():
             print(servant)
             
         case '3':
+            print(servant)
             tira = input('escreva o nome de quem saíra       ')
             servant.remove(tira)
             print(servant)
@@ -51,6 +53,7 @@ def Mbuilder():
             print(MasterBuilde)
             
         case '3':
+            print(MasterBuilde)
             tira = input('escreva o nome do mestre de obras que saíra       ')
             MasterBuilde.remove(tira)
             print(MasterBuilde)
@@ -85,7 +88,7 @@ def interface_inicial():
          case _:
              print('acesso invalido' )
              
-    interface_inicial()
+interface_inicial()
 
 
 
