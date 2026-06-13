@@ -67,21 +67,20 @@ def interface_inicial():
              print('\n acesso de engenheiro')
              escolha = input ('\n1 - materias \n2 - mestres de obras \n')
              match escolha: 
-                case '1':
+                 case '1':
                     materiais()
                     
-                case '2':
+                 case '2':
                     Mbuilder()
 
          case '3':
             print('\n acesso ou mestre de obras')
             escolha = input ('\n1 - materias \n2 - serventes \n')
-             
             match escolha:
-                      case '1':
-                          materiais()
-                      case '2':
-                          fucionarios() 
+                 case '1':
+                         materiais()
+                 case '2':
+                        fucionarios() 
 
          case _:
              print('acesso invalido' )
